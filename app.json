@@ -1,0 +1,24 @@
+{
+  "name": "furrywarroom",
+  "description": "Furry War Room main chat",
+  "scripts": {
+  },
+  "env": {
+    "BUILDPACK_URL": "https://github.com/RocketChat/heroku-buildpack-meteor.git",
+    "HEROKU_APP_NAME": "furrywarroom"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "logentries",
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/RocketChat/heroku-buildpack-meteor.git"
+    }
+  ]
+}
