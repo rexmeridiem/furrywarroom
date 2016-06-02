@@ -1,2 +1,0 @@
-# furrywarroom
-furrywarroom rocket.chat
